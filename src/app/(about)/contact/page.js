@@ -1,5 +1,6 @@
+// "use client"
 import ContactForm from '@/src/components/Contact/ContactForm'
-import LottieAnimation from '@/src/components/Contact/LottieAnimation'
+// import LottieAnimation from '@/src/components/Contact/LottieAnimation'
 import siteMetadata from '@/src/utils/siteMetaData'
 import React from 'react'
 
@@ -15,7 +16,7 @@ const Contact = () => {
         text-dark dark:text-light'>
             <div className='w-full sm:w-4/5 md:w-2/5 inline-block h-full border-r-0 
             md:border-r-2 border-solid border-dark dark:border-light'>
-                <LottieAnimation />
+                {/* <LottieAnimation /> */}
             </div>
             <div className='w-full md:w-3/5 flex flex-col items-start 
             justify-center px-5 xs:px-10 md:px-16 pb-8'>
