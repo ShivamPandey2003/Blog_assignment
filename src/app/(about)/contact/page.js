@@ -1,6 +1,6 @@
-import siteMetadata from '@/project files/siteMetaData'
 import ContactForm from '@/src/components/Contact/ContactForm'
 import LottieAnimation from '@/src/components/Contact/LottieAnimation'
+import siteMetadata from '@/src/utils/siteMetaData'
 import React from 'react'
 
 export const metadata = {
